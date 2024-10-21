@@ -1,3 +1,8 @@
+.abel-regular {
+    font-family: "Abel", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  }
 body{
     margin: 0px;
     height: 100vh; 
@@ -5,6 +10,7 @@ body{
     display: flex;
     justify-content: space-evenly;
     align-items: center;
+    font-family: Abel;
 }
 .product-card{
     background-color: white;
@@ -19,41 +25,47 @@ body{
 .header{
     font-weight: lighter;
     color: #663C2E;
+    margin-bottom: 5px;
 }
 .price{
     font-weight: 100;
+    margin-bottom: 5px;
+    margin-top: 5px;
 }
 .content{
     margin: 20px;
-    padding: px;
+    
 }
 .text{
     font-style: italic;
-    margin-bottom: 16px;
+    margin-bottom: 5px;
+    margin-top: 10px;
 }
 .button{
     color: #663C2E;
     background-color: white;
     border: 2px solid #663C2E;
     width: 9em;
-    height: 3.5em;
+    height: 3em;
     border-radius: 30px;
     font-weight: bolder;
     font-size: 15px;
-    padding: 15px;
-    margin-top: 10px;
+    padding: 10px ;
+    margin-top: 20px;
     margin-bottom: 20px;
+    font-family: Abel;
 }
 .button2{
     background-color: #663C2E;
     color: white;
     border: none;
     width: 9em;
-    height: 3.5em;
+    height: 3em;
+    margin-top: 20px;
     border-radius: 30px;
     font-weight: bolder;
     font-size: 15px;
-    padding: 15px;
-    margin-top: 10px;
+    padding: 10px;
     margin-bottom: 20px;
+    font-family: Abel;
 }
